@@ -11,11 +11,11 @@ __Features__
 - **Real-Time Feedback**: Prints the cookies per second (CPS) rate to track progress.
 
 __How It Works__
-> **Setup**: Configures and initializes the Chrome WebDriver for browser automation. 
-> **Navigation**: Opens the Cookie Clicker game page. 
-> **Element Interaction**: Locates and interacts with the game elements such as the cookie and item buttons. 
-> **Price Parsing**: Extracts and converts item prices from the web page. 
-> **Automated Tasks**: Clicks the cookie and buys items based on current game state in a loop running for 5 minutes.
+1. **Setup**: Configures and initializes the Chrome WebDriver for browser automation.
+2. **Navigation**: Opens the Cookie Clicker game page.
+3. **Element Interaction**: Locates and interacts with the game elements such as the cookie and item buttons.
+4. **Price Parsing**: Extracts and converts item prices from the web page.
+5. **Automated Tasks**: Clicks the cookie and buys items based on current game state in a loop running for 5 minutes.
 
 __Requirements__
 1. Python 3.x 
